@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // for local testing
-      "https://local-shop-frontend.onrender.com" // ✅ replace with your Render frontend URL
+      "https://localshop-frontend.onrender.com" // ✅ replace with your Render frontend URL
     ],
     credentials: true,
   })
