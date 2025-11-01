@@ -9,7 +9,7 @@ export default function CustomerDashboard() {
   const searchShops = async () => {
     try {
       const products = query.products.split(",").map((p) => p.trim());
-      const res = await axios.post("http://localhost:3000/api/shop/search", {
+      const res = await axios.post("https://local-shop-finder-1.onrender.com/api/shop/search", {
         ...query,
         products,
       });

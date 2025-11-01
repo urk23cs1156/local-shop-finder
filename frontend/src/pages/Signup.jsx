@@ -9,7 +9,7 @@ export default function Signup() {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3000/api/auth/signup", {
+      const res = await axios.post("https://local-shop-finder-1.onrender.com/api/auth/signup", {
         username,
         password,
         role,

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./AddressPrompt.css"; // create this for styling (optional)
 
-const backendURL = "http://localhost:3000/api/shop/search";
+const backendURL = "https://local-shop-finder-1.onrender.com/api/shop/search";
 
 export default function AddressPrompt() {
   const [productName, setProductName] = useState("");

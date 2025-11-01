@@ -19,7 +19,7 @@ export default function ShopkeeperDashboard() {
   const token = localStorage.getItem("token");
 
   const api = axios.create({
-    baseURL: "http://localhost:3000/api",
+    baseURL: "https://local-shop-finder-1.onrender.com/api",
     headers: { Authorization: `Bearer ${token}` },
   });
 
